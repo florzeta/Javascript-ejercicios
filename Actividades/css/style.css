@@ -19,7 +19,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
+h1 , h2 , h3 {
     text-align: center;
     color: #2574db;
     font-weight: bold;
@@ -53,4 +53,20 @@ p {
     font-size: 30px;
     color: #333;
     margin-top: 20px;
+}
+
+/*Actividad 2*/
+
+input[type="text"], button {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+p#resultado2 {
+    font-size: 25px;
+    color: #c023f0;
+    margin-top: 20px;
+    font-weight: bold;
 }

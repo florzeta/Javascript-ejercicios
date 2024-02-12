@@ -24,3 +24,21 @@ function calcularMedioTransporte() {
 
     resultado.style.color = "#007bff";
 }
+
+
+/*Actividad 2 */
+
+function encontrarMayor() {
+    const inputNumeros = document.getElementById("inputNumeros").value;
+    const arrayNumeros = inputNumeros.split(",").map(Number);
+    
+    let mayor = arrayNumeros[0];
+    for (let i = 1; i < arrayNumeros.length; i++) {
+      if (arrayNumeros[i] > mayor) {
+        mayor = arrayNumeros[i];
+      }
+    }
+    
+    document.getElementById("resultado2").innerText = `El número más grande es: ${mayor}`;
+  }
+  
